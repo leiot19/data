@@ -558,7 +558,7 @@ attachment = open("Reporte_Vulnerabilidades_" + fecha_hoy + ".pdf", "rb")
 
 part = MIMEBase('application', 'octet-stream')
 part.set_payload((attachment).read())
-encoders.encode_base64(part)
+encoders.encode_base64(xxxxxx)
 part.add_header('Content-Disposition', "attachment; filename= %s" % filename)
 
 msg.attach(part)
