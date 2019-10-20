@@ -538,9 +538,9 @@ os.rename("reporte_vulnerabilidades.pdf", "Reporte_Vulnerabilidades_" + fecha_ho
 
 print ("Enviando correo electronico"), '\n'
 #enviarCorreo():
-fromaddr = "req.bancolombia@axity.com"
-recipients = "ivan.tarapues@axity.com"
-password = base64.b64decode('YmVQWE4wNFo5RFduUTM2NQ==')
+fromaddr = "main@gmail.com"
+recipients = "dos@gmail.com"
+password = base64.b64decode('password')
 
 msg = MIMEMultipart()
 
